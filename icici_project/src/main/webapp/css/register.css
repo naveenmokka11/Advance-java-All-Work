@@ -1,0 +1,299 @@
+@charset "ISO-8859-1";
+
+body, h1, p {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:  border-box;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color:#F37E20;
+    color: #ffffff;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#logoimg{
+	height: 100px;
+	width: 100px;
+}
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+button {
+ background-color: #FFA500;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-container {
+    height: 10px;
+    width: 2px;
+    background-color:#1a1110;
+}
+.horizontal-menu {
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+}
+
+.horizontal-menu ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.horizontal-menu li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.horizontal-menu a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.hero {
+    overflow: hidden;
+}
+
+
+/* Add your CSS styles here */
+/* Styles for the popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+/* Add this CSS to your "register.css" or style section in the HTML file */
+
+/* Style the registration container to position it on the left side */
+
+
+.registration-container {
+    display: flex;
+    justify-content: flex-start; /* Align elements to the left */
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+    padding-top: 6em;
+}
+
+/* Style the registration box */
+.registration-box {
+
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-left: 70%;
+    margin-bottom: 200px;
+}
+
+/* Style form elements as needed */
+.registration-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-box label {
+    margin-bottom: 5px;
+}
+
+.registration-box input {
+    margin-bottom: 10px;
+}
+
+.registration-box button {
+    background-color: #0074cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Additional CSS styling as needed */
+
+/* Style the ICICI Bank logo */
+#icici-logo {
+    font-size: 40px; /* Double the size (adjust as needed) */
+    font-weight: bold; /* Make it bold */
+    font-family: Arial, sans-serif; /* Change the font style (adjust as needed) */
+}
+.log{
+	 font-size: 20px;
+	font-weight: bold;
+}
+
+/* Style the scrolling images container */
+.scrolling-images-container {
+    white-space: nowrap; /* Prevent images from wrapping to the next line */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Style the images inside the scrolling container */
+.scrolling-images-container img {
+    width: 300px; /* Set the width of each image */
+    margin-right: 10px; /* Adjust spacing between images */
+    display: inline-block; /* Display images in a row */
+    animation: scrollImages 10s linear infinite; /* Apply scrolling animation */
+}
+
+/* Define the scrolling animation */
+@keyframes scrollImages {
+    0% {
+        transform: translateX(100%); /* Start scrolling from the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Scroll to the left */
+    }
+}
+/* Apply background image to the body */
+.background-scrolling {
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keep the background fixed */
+}
+
+/* Style the login box */
+.registration-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-right: 20px;
+}
+
+/* Style form elements as needed */
+.registration-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-box label {
+    margin-bottom: 10px;
+}
+
+.registration-box input {
+    margin-bottom: 15px;
+}
+
+.registration-box button {
+    background-color: #0074cc;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+wrapper {
+    height: 200vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 20ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-family: monospace;
+    font-size: 10px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

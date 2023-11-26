@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+*{
+    box-sizing: border-box;
+    /* margin-top: 0%;
+    margin-left: 0%; */
+    margin: 0%;
+    overflow-x: hidden
+;
+}
+.iciclogo{
+	height: 30px;
+	width: 100px;
+	margin-bottom: 30px;
+}
+
+#nav{
+list-style:none ;
+margin-top: 3em;
+display: flex;
+gap:35px ;
+}
+#phone{
+    color:#F37E20;
+}
+#flags{
+    height: 20px;
+    width: 20px;
+}
+
+#bar1{
+    height: 7em;
+    width: 100%;
+    background-color:#FDF6F4;
+    position: fixed;
+}
+.login-btn1{
+    height: 35px;
+    width: 150px;
+    color:#F37E20;
+    border: 2px solid  #F37E20;
+    border-radius: 15px;
+    
+
+}
+.register-btn2{
+    height: 35px;
+    width: 150px;
+    color:white;
+    background-color: #F37E20;
+    border: 2px solid  #F37E20;
+    border-radius: 15px;
+    
+
+}
+.register-btn2:hover{
+    background-color: #9C2126;
+
+}
+.countrys{
+    height: 10em;
+    width: 5em;
+    background-color: blue;
+     display: none; 
+}
+#input-felid{
+  height: 200px;
+  width: 200px;
+  background-color: #eae3dd;
+}
+.wrapper {
+    height: 200vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 20ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-family: monospace;
+    font-size: 10px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  #third-nav{
+    height: 3em;
+    width: 100%;
+    background-color: #FDF6F4;
+  }
+  #third-nav-items{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+  }
+
+  .thrirdnavlogo{
+    height: 20px;
+    width: 20px;
+  }
+  #offers{
+    width: 1895px;
+    height: 180.5px;
+    background-color:#fff7eb;
+    }
+#buttons{
+    padding-left: 500px;
+}
+button{
+    border-radius: 20px;
+}
+#alloffers{
+    padding-left: 600px;
+   position: relative;
+   top: 120px;
+}
+#links{
+    padding-left: 500px;
+}
+.img{
+    height: 214px;
+}
+button:hover{
+    background-color: orange;
+}

@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{
+background-image: url(./cssfiles/n.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+#fset{
+	margin-top: 100px;
+	height:22em;
+	width:20em;
+	border-radius:10px;
+	border: 2px solid black;
+}
+.inbox{
+	height: 30px;
+	border-radius: 10px;
+	width: 13rem;
+
+}

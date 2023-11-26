@@ -1,0 +1,27 @@
+
+<web-app>
+
+	<servlet>
+		<servlet-class>com.demo.Addition</servlet-class>
+		<servlet-name>com.demo.Addition</servlet-name>
+	</servlet>
+
+	<servlet>
+		<servlet-class>com.demo.Mutipication</servlet-class>
+		<servlet-name>com.demo.Mutipication</servlet-name>
+		<servlet-class>com.demo.Substraction</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>com.demo.Mutipication</servlet-name>
+		<url-pattern>/multiply</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>com.demo.Addition</servlet-name>
+		<url-pattern>/add</url-pattern>
+
+		<url-pattern>/sub</url-pattern>
+	</servlet-mapping>
+
+</web-app>
